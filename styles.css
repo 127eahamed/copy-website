@@ -1,0 +1,44 @@
+body {
+    background-color: #1A458B;
+    color: #FFFFFF;
+    padding: 1rem 0 0 1rem;
+    margin: 0;
+}
+html {
+    font-size: 18px;
+}
+h2 {
+    margin-bottom: 2rem;
+}
+.courses p {
+    margin-bottom: 4rem;
+}
+.courses .course-title-link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.courses .course-title-link img {
+    height: 2rem;
+}
+.courses a {
+    color: #ffffff;
+}
+.colleges-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.college {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+}
+.college img {
+    width: 3rem;
+    height: 3rem;
+}

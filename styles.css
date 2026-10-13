@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 html {
-    font-size: 18px;
+    font-size: 20px;
 }
 h2 {
     margin-bottom: 2rem;
@@ -41,4 +41,39 @@ h2 {
 .college img {
     width: 3rem;
     height: 3rem;
+}
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.carousel {
+    display: flex;
+    gap: 0;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    button {
+        border: none;
+        background-color: #FFD000;
+        font-size: 1.6rem;
+        padding: 0;
+    }
+}
+.carousel-images img {
+    display: none;
+    width: 640px;
+    height: 360px;
+}
+.carousel-images img.carousel-current-image {
+    display: block;
+}
+.ecs-images {
+    display: flex;
+    gap: 0.4rem;
+}
+.ecs-images img {
+    height: 10rem;
 }

@@ -27,3 +27,7 @@ function updateCarousel() {
         images[carouselIndex].classList.add("carousel-current-image");
     }
 }
+function showSidebarCourses() {
+    document.getElementById("sidebar-courses").classList.add("hidden");
+    document.getElementById("sidebar-courses").classList.remove("hidden");
+}

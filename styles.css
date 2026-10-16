@@ -1,7 +1,7 @@
 body {
     background-color: #1A458B;
     color: #FFFFFF;
-    padding: 1rem 0 0 1rem;
+    padding: 0;
     margin: 0;
 }
 html {
@@ -76,4 +76,53 @@ h2 {
 }
 .ecs-images img {
     height: 10rem;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+}
+.container .content {
+    padding-left: 1rem;
+    overflow: scroll;
+}
+.sidebar {
+    color: #080A0B;
+    background-color: #FFD000;
+}
+.sidebar > button {
+    font-size: 1.2rem;
+    border: 1px solid #080A0B;
+    background-color: transparent;
+    margin-top: 0.4rem;
+    margin-left: 0.4rem;
+}
+.sidebar h2,
+.sidebar p {
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+}
+.sidebar > h2 {
+    margin-bottom: 0;
+}
+.sidebar a {
+    display: block;
+    padding: 30px 10px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none;
+    color: #080A0B;
+}
+.sidebar a:hover {
+    background-color: #ffffff;
+}
+.sidebar-section a {
+    padding: 10px 0;
+    font-weight: normal;
+    white-space: normal;
+}
+.hidden {
+    display: none;
 }

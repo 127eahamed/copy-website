@@ -89,13 +89,15 @@ h2 {
 .sidebar {
     color: #080A0B;
     background-color: #FFD000;
+    padding-top: 2rem;
 }
-.sidebar > button {
+.sidebar-button {
+    position: fixed;
+    top: 0.4rem;
+    left: 0.4rem;
     font-size: 1.2rem;
     border: 1px solid #080A0B;
     background-color: transparent;
-    margin-top: 0.4rem;
-    margin-left: 0.4rem;
 }
 .sidebar h2,
 .sidebar p {

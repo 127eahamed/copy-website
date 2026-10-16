@@ -27,7 +27,14 @@ function updateCarousel() {
         images[carouselIndex].classList.add("carousel-current-image");
     }
 }
-function showSidebarCourses() {
+function toggleSidebarCourses() {
+    document.getElementById("sidebar-courses").classList.toggle("hidden");
+    document.getElementById("sidebar-ecs").classList.add("hidden");
+}
+function toggleSidebarECs() {
     document.getElementById("sidebar-courses").classList.add("hidden");
-    document.getElementById("sidebar-courses").classList.remove("hidden");
+    document.getElementById("sidebar-ecs").classList.toggle("hidden");
+}
+function toggleSidebar() {
+    document.getElementById("sidebar").classList.toggle("hidden");
 }
